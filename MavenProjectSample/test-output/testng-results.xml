@@ -1,171 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="198136" started-at="2022-05-27T10:15:13 IST" finished-at="2022-05-27T10:18:31 IST">
+  <suite name="Default suite" duration-ms="78071" started-at="2022-06-23T14:29:37 IST" finished-at="2022-06-23T14:30:55 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="198136" started-at="2022-05-27T10:15:13 IST" finished-at="2022-05-27T10:18:31 IST">
+    <test name="Default test" duration-ms="78071" started-at="2022-06-23T14:29:37 IST" finished-at="2022-06-23T14:30:55 IST">
       <class name="TestRunner.Runner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@4671e53b]" name="setUpClass" is-config="true" duration-ms="535" started-at="2022-05-27T10:15:13 IST" finished-at="2022-05-27T10:15:14 IST">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@4671e53b]" name="setUpClass" is-config="true" duration-ms="531" started-at="2022-06-23T14:29:37 IST" finished-at="2022-06-23T14:29:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@10230657]]>
+                <![CDATA[org.testng.TestRunner@1bf39d06]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="22719" started-at="2022-05-27T10:15:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:15:36 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="77329" started-at="2022-06-23T14:29:38 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T14:30:55 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Bill Pay"]]>
+                <![CDATA["Successful Login with data tables"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Bill Pay]"]]>
+                <![CDATA["Optional[Login data]"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 1, Size: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+at java.util.ArrayList.get(ArrayList.java:433)
+at java.util.Collections$UnmodifiableList.get(Collections.java:1309)
+at StepDefinitions.StepDataTableTesting.user_enters_user_name_and_password(StepDataTableTesting.java:30)
+at ✽.User enters UserName and Password(file:///C:/Users/703323585/Narmada/Narmada_AutomationProject_May17/Narmada_MiniProject/MavenProjectSample/src/test/resources/Feature/DataTableTesting.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="12268" started-at="2022-05-27T10:15:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:15:49 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Bill Pay Error Messages Validation"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Bill Pay]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="13604" started-at="2022-05-27T10:15:49 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:16:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Bill Pay - Verify Invalid and Mismatch error message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Bill Pay]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="18681" started-at="2022-05-27T10:16:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:16:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["UpdateContact Info"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[UpdateContact]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="22608" started-at="2022-05-27T10:16:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:16:44 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["UpdateContact Info -Error Msg validation"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[UpdateContact]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="18768" started-at="2022-05-27T10:16:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:17:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Successful Login with Valid Credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="29024" started-at="2022-05-27T10:17:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:17:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open a New Account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Openning  New Account]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="34895" started-at="2022-05-27T10:17:31 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:18:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open a New Account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Openning  New Account]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@4671e53b]" name="runScenario" duration-ms="24748" started-at="2022-05-27T10:18:06 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-27T10:18:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Transfer Fund from one account to another"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Transfer Fund]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@4671e53b]" name="tearDownClass" is-config="true" duration-ms="241" started-at="2022-05-27T10:18:31 IST" finished-at="2022-05-27T10:18:31 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@4671e53b]" name="tearDownClass" is-config="true" duration-ms="175" started-at="2022-06-23T14:30:55 IST" finished-at="2022-06-23T14:30:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

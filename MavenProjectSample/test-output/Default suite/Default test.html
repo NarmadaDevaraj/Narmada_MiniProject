@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 27 10:15:13 IST 2022</td>
+<td>Started on:</td><td>Thu Jun 23 14:29:37 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>198 seconds (198136 ms)</td>
+<tr><td>Total time:</td><td>78 seconds (78071 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,57 +67,30 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "UpdateContact Info", "Optional[UpdateContact]"</td>
-<td></td>
-<td>18</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay - Verify Invalid and Mismatch error message", "Optional[Bill Pay]"</td>
-<td></td>
-<td>13</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay Error Messages Validation", "Optional[Bill Pay]"</td>
-<td></td>
-<td>12</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Transfer Fund from one account to another", "Optional[Transfer Fund]"</td>
-<td></td>
-<td>24</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay", "Optional[Bill Pay]"</td>
-<td></td>
-<td>22</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open a New Account", "Optional[Openning  New Account]"</td>
-<td></td>
-<td>29</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Optional[Login]"</td>
-<td></td>
-<td>18</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "UpdateContact Info -Error Msg validation", "Optional[UpdateContact]"</td>
-<td></td>
-<td>22</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open a New Account", "Optional[Openning  New Account]"</td>
-<td></td>
-<td>34</td>
+<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with data tables", "Optional[Login data]"</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at java.util.Collections$UnmodifiableList.get(Collections.java:1309)
+	at StepDefinitions.StepDataTableTesting.user_enters_user_name_and_password(StepDataTableTesting.java:30)
+	at ?.User enters UserName and Password(file:///C:/Users/703323585/Narmada/Narmada_AutomationProject_May17/Narmada_MiniProject/MavenProjectSample/src/test/resources/Feature/DataTableTesting.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace20945625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20945625'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at java.util.Collections$UnmodifiableList.get(Collections.java:1309)
+	at StepDefinitions.StepDataTableTesting.user_enters_user_name_and_password(StepDataTableTesting.java:30)
+	at ?.User enters UserName and Password(file:///C:/Users/703323585/Narmada/Narmada_AutomationProject_May17/Narmada_MiniProject/MavenProjectSample/src/test/resources/Feature/DataTableTesting.feature:6)
+</pre></div></td>
+<td>77</td>
 <td>TestRunner.Runner@4671e53b</td></tr>
 </table><p>
 </body>
