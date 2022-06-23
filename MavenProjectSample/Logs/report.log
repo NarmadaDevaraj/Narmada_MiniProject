@@ -127,3 +127,300 @@
 2022-06-23 14:03:05.957 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
 2022-06-23 14:29:41.820 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
 2022-06-23 14:30:55.600 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:18:19.712 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:18:26.714 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:19:28.533 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:19:34.640 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:32:24.955 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:32:32.343 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:35:13.273 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:35:20.344 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:20.575 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:20.627 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:35:20.628 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:35:20.785 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:21.005 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:21.048 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:35:21.048 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:35:27.995 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:27.995 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:35:29.069 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:39)] - button is enabled
+2022-06-23 16:35:30.675 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:35:30.675 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:42)] - Successfully clicked on logout button
+2022-06-23 16:35:31.331 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:39:59.075 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:40:08.846 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:09.014 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:09.077 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:40:09.077 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:40:09.284 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:09.505 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:09.548 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:40:09.548 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:40:11.532 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:11.532 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:40:12.828 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:13.044 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:13.089 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Narmada typed successfully
+2022-06-23 16:40:13.300 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:13.354 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Medahalli typed successfully
+2022-06-23 16:40:13.564 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:13.621 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Bangalore typed successfully
+2022-06-23 16:40:13.841 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:13.898 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Karnataka typed successfully
+2022-06-23 16:40:14.103 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:14.158 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 560049 typed successfully
+2022-06-23 16:40:14.366 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:14.413 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 9843915528 typed successfully
+2022-06-23 16:40:14.632 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:14.684 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 13344 typed successfully
+2022-06-23 16:40:14.891 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:14.929 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 13344 typed successfully
+2022-06-23 16:40:15.113 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:15.163 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 1000 typed successfully
+2022-06-23 16:40:45.275 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:40:45.461 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:51.227 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:40:52.896 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:40:58.074 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:58.246 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:58.296 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:40:58.298 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:40:58.446 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:58.622 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:40:58.667 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:40:58.667 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:41:05.566 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:05.567 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:41:06.726 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:06.879 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:06.912 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeName(BillPay.java:159)] - Error msg verified successfully for empty payee Name
+2022-06-23 16:41:06.943 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeAddress(BillPay.java:166)] - Error msg verified successfully for empty payee Address
+2022-06-23 16:41:06.971 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeCity(BillPay.java:173)] - Error msg verified successfully for empty payee City
+2022-06-23 16:41:07.015 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeState(BillPay.java:180)] - Error msg verified successfully for empty payee State
+2022-06-23 16:41:07.050 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeZipCode(BillPay.java:187)] - Error msg verified successfully for empty payee zip code
+2022-06-23 16:41:07.076 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeePhoneNumber(BillPay.java:194)] - Error msg verified successfully for empty payee Phone number
+2022-06-23 16:41:07.101 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeAccountId(BillPay.java:201)] - Error msg verified successfully for empty payee Account ID
+2022-06-23 16:41:07.117 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeVerifyAccountID(BillPay.java:208)] - Error msg verified successfully for empty payee Verify account Id
+2022-06-23 16:41:07.133 INFO [main] [PageObjects.BillPay.verifyErrorMsg_PayeeAmount(BillPay.java:215)] - Error msg verified successfully for empty payee amount
+2022-06-23 16:41:07.777 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:41:09.233 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:41:14.836 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:15.000 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:15.052 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:41:15.052 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:41:15.198 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:15.375 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:15.418 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:41:15.418 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:41:17.411 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:17.412 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:41:18.467 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:18.670 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:18.735 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Narmada typed successfully
+2022-06-23 16:41:18.936 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:18.994 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Medahalli typed successfully
+2022-06-23 16:41:19.192 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:19.246 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Bangalore typed successfully
+2022-06-23 16:41:19.470 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:19.528 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Karnataka typed successfully
+2022-06-23 16:41:19.757 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:19.815 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 560049 typed successfully
+2022-06-23 16:41:20.031 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:20.079 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 9843915528 typed successfully
+2022-06-23 16:41:20.265 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:20.306 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text abcde typed successfully
+2022-06-23 16:41:20.554 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:20.602 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 13344 typed successfully
+2022-06-23 16:41:20.805 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:20.849 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 1000 typed successfully
+2022-06-23 16:41:50.983 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:41:51.164 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:51.191 INFO [main] [PageObjects.BillPay.verifyInvalidAccountErrorMsg(BillPay.java:222)] - Error msg verified successfully for invalid payee account number
+2022-06-23 16:41:51.227 INFO [main] [PageObjects.BillPay.verifyMismatchVerifyAccountErrorMsg(BillPay.java:230)] - Error msg verified successfully for invalid payee account and wrong verify account number
+2022-06-23 16:41:51.461 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:51.512 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text abcde typed successfully
+2022-06-23 16:41:51.628 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:41:51.657 INFO [main] [PageObjects.BillPay.verifyInvalidAccountErrorMsg(BillPay.java:222)] - Error msg verified successfully for invalid payee account number
+2022-06-23 16:41:51.694 INFO [main] [PageObjects.BillPay.verifyInvalidVerifyAccountErrorMsg(BillPay.java:238)] - Error msg verified successfully for invalid payee account and wrong verify account number
+2022-06-23 16:41:52.372 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:41:53.853 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:42:22.002 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:22.178 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:22.225 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:42:22.226 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:42:22.353 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:22.508 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:22.562 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:42:22.563 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:42:25.330 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:25.330 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:42:26.054 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:26.279 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:26.327 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Narmada typed successfully
+2022-06-23 16:42:26.327 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerName(UpdateContactInfo.java:73)] - User typed customer name successfully
+2022-06-23 16:42:26.505 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:26.553 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Devaraj typed successfully
+2022-06-23 16:42:26.553 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerLName(UpdateContactInfo.java:79)] - User typed customer last name successfully
+2022-06-23 16:42:26.740 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:26.788 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text brindhavan typed successfully
+2022-06-23 16:42:26.788 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerAddress(UpdateContactInfo.java:85)] - User typed customer Address successfully
+2022-06-23 16:42:27.002 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:27.055 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Bangalore typed successfully
+2022-06-23 16:42:27.056 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerCity(UpdateContactInfo.java:91)] - User typed customer City successfully
+2022-06-23 16:42:27.275 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:27.326 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text Karnataka typed successfully
+2022-06-23 16:42:27.326 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerState(UpdateContactInfo.java:97)] - User typed customer state successfully
+2022-06-23 16:42:27.527 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:27.573 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 560049 typed successfully
+2022-06-23 16:42:27.574 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerZipCode(UpdateContactInfo.java:103)] - User typed customer Zip code successfully
+2022-06-23 16:42:27.748 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:27.801 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text 9843915528 typed successfully
+2022-06-23 16:42:27.802 INFO [main] [PageObjects.UpdateContactInfo.typeCustomerPhoneNum(UpdateContactInfo.java:109)] - User typed customer Zip code successfully
+2022-06-23 16:42:27.958 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:27.958 INFO [main] [PageObjects.UpdateContactInfo.clickOnUpdateProfile(UpdateContactInfo.java:115)] - User successfully clicked on UpdateProfile button
+2022-06-23 16:42:33.641 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:42:35.091 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:42:40.627 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:40.786 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:40.842 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:42:40.842 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:42:40.966 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:41.131 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:41.177 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:42:41.177 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:42:42.907 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:42.907 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:42:43.620 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:48.746 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:48.797 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCName(UpdateContactInfo.java:127)] - Error msg validated successfully for empty customer name
+2022-06-23 16:42:48.880 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:48.943 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCLName(UpdateContactInfo.java:139)] - Error msg validated successfully for empty customer last name
+2022-06-23 16:42:49.053 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:49.113 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCAddress(UpdateContactInfo.java:148)] - Error msg validated successfully for empty customer Address
+2022-06-23 16:42:49.221 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:49.281 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCAddCity(UpdateContactInfo.java:157)] - Error msg validated successfully for empty customer Address city
+2022-06-23 16:42:49.398 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:49.458 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCAddState(UpdateContactInfo.java:166)] - Error msg validated successfully for empty customer Address State
+2022-06-23 16:42:49.549 INFO [main] [Utility.BrowserActions.clearTextBox(BrowserActions.java:138)] - Text box cleared successfully
+2022-06-23 16:42:49.611 INFO [main] [PageObjects.UpdateContactInfo.errorMsgValidationForEmptyCZipCode(UpdateContactInfo.java:175)] - Error msg validated successfully for empty customer Address zip code
+2022-06-23 16:42:49.753 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:42:49.754 INFO [main] [PageObjects.UpdateContactInfo.clickOnUpdateProfile(UpdateContactInfo.java:115)] - User successfully clicked on UpdateProfile button
+2022-06-23 16:42:55.449 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:42:56.835 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:43:01.995 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:02.157 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:02.204 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:43:02.205 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:43:02.337 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:02.500 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:02.545 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:43:02.546 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:43:04.815 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:04.816 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:43:05.882 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:39)] - button is enabled
+2022-06-23 16:43:07.096 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:07.096 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:42)] - Successfully clicked on logout button
+2022-06-23 16:43:07.762 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:43:09.155 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:43:14.372 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:14.547 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:14.594 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:43:14.594 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:43:14.730 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:14.907 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:14.951 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:43:14.951 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:43:17.180 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:17.180 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:43:18.234 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:39)] - button is enabled
+2022-06-23 16:43:20.283 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:20.284 INFO [main] [PageObjects.ParaBankAccountOverview.clickLogOut(ParaBankAccountOverview.java:42)] - Successfully clicked on logout button
+2022-06-23 16:43:20.921 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:43:22.394 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:43:27.827 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:28.007 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:28.052 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:43:28.053 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:43:28.199 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:28.361 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:28.406 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:43:28.407 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:43:31.130 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:31.130 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:43:31.776 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:43:31.886 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option CHECKING by using selectByOptionTextMethod
+2022-06-23 16:44:01.988 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:44:02.088 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:08.664 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:13.717 INFO [main] [PageObjects.NewAccount.accountTypeVerify(NewAccount.java:132)] - Account Type Verification done
+2022-06-23 16:44:19.768 INFO [main] [PageObjects.NewAccount.accountIdVerify(NewAccount.java:115)] - Account Id verification done
+2022-06-23 16:44:19.895 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option February by using selectByOptionTextMethod
+2022-06-23 16:44:20.044 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option Credit by using selectByOptionTextMethod
+2022-06-23 16:44:20.186 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:21.387 INFO [main] [PageObjects.NewAccount.clickOnGoButton(NewAccount.java:156)] - Transaction table msg verified Successfully:No transactions found.
+2022-06-23 16:44:22.032 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:44:23.585 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:44:28.917 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:29.094 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:29.142 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:44:29.143 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:44:29.288 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:29.449 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:29.501 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:44:29.502 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:44:34.350 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:34.351 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:44:35.046 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:44:35.172 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option SAVINGS by using selectByOptionTextMethod
+2022-06-23 16:45:05.324 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:45:05.494 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:12.195 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:23.327 INFO [main] [PageObjects.NewAccount.accountIdVerify(NewAccount.java:115)] - Account Id verification done
+2022-06-23 16:45:23.469 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option February by using selectByOptionTextMethod
+2022-06-23 16:45:23.600 INFO [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:32)] - Selected the option Credit by using selectByOptionTextMethod
+2022-06-23 16:45:23.752 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:25.103 INFO [main] [PageObjects.NewAccount.clickOnGoButton(NewAccount.java:156)] - Transaction table msg verified Successfully:No transactions found.
+2022-06-23 16:45:25.763 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully
+2022-06-23 16:45:27.285 INFO [main] [Utility.DriverManager.<init>(DriverManager.java:24)] - Driver got launched and maximize successfully
+2022-06-23 16:45:32.535 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:32.700 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:32.747 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text john typed successfully
+2022-06-23 16:45:32.748 INFO [main] [PageObjects.LoginPage.setUserName(LoginPage.java:42)] - Successfully entered username
+2022-06-23 16:45:32.877 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:33.032 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:33.078 INFO [main] [Utility.BrowserActions.type(BrowserActions.java:114)] - The text demo typed successfully
+2022-06-23 16:45:33.079 INFO [main] [PageObjects.LoginPage.setPassword(LoginPage.java:49)] - Successfully entered password
+2022-06-23 16:45:34.969 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:45:34.969 INFO [main] [PageObjects.LoginPage.clickLoginButton(LoginPage.java:55)] - Successfully clicked on login button
+2022-06-23 16:45:35.694 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:46:11.915 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:46:42.009 ERROR [main] [Utility.BrowserActions.selectByOptionText(BrowserActions.java:35)] - The error Msg :Cannot locate element with text: 13344
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IX8J8MHL3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+2022-06-23 16:46:42.238 INFO [main] [Utility.BrowserActions.explicitWaitEleToBeClickable_Click(BrowserActions.java:71)] - Element clicked successfully
+2022-06-23 16:46:47.336 INFO [main] [PageObjects.TransferFund.verifyTransferedAmt(TransferFund.java:94)] - $1000.00
+2022-06-23 16:46:47.372 INFO [main] [PageObjects.TransferFund.verifyTransferFromAccountId(TransferFund.java:101)] - 18561
+2022-06-23 16:46:48.026 INFO [main] [Utility.DriverManager.tearDown(DriverManager.java:45)] - Driver instances closed successfully

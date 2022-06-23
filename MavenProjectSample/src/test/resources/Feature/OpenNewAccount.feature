@@ -5,7 +5,7 @@ Background: User Login with valid credentials
    And User enters UserName as "john" and Password as "demo"
    And Click on Login
    Then Page Title should be "ParaBank | Accounts Overview"
-Scenario: Open a New Account
+Scenario Outline: Open a New Account
    Given User click on New Account 
    When Page Title should be "ParaBank | Open Account"
    When User select the Account Type as "<AccountType>"

@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(plugin = {"pretty", "html:target/cucumber","html:target/cucumber-reports/report.html","json:target/cucumber-reports/report.json"},
 monochrome=true,
-features = "src/test/resources/Feature/DataTableTesting.feature",
+features = "src/test/resources/Feature",
 glue ={"StepDefinitions"},
 dryRun=false
 )
