@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 23 16:39:54 IST 2022</td>
+<td>Started on:</td><td>Mon Jul 18 18:29:28 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>413 seconds (413468 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45724 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,40 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Transfer Fund from one account to another", "Optional[Transfer Fund]"</td>
-<td><div><pre>java.lang.AssertionError: expected [13344] but found [18561]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at PageObjects.TransferFund.verifyTransferFromAccountId(TransferFund.java:102)
-	at StepDefinitions.StepTransferFund.verify_from_account_should_be_and_to_account_should_be(StepTransferFund.java:60)
-	at ?.Verify From account should be &quot;13344&quot; and To account should be &quot;13344&quot;(file:///C:/Users/703323585/Narmada/Narmada_AutomationProject_May17/Narmada_MiniProject/MavenProjectSample/src/test/resources/Feature/TransferFund.feature:17)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1466600192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1466600192'><pre>java.lang.AssertionError: expected [13344] but found [18561]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at PageObjects.TransferFund.verifyTransferFromAccountId(TransferFund.java:102)
-	at StepDefinitions.StepTransferFund.verify_from_account_should_be_and_to_account_should_be(StepTransferFund.java:60)
-	at ?.Verify From account should be &quot;13344&quot; and To account should be &quot;13344&quot;(file:///C:/Users/703323585/Narmada/Narmada_AutomationProject_May17/Narmada_MiniProject/MavenProjectSample/src/test/resources/Feature/TransferFund.feature:17)
-</pre></div></td>
-<td>82</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -109,50 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open a New Account", "Optional[Openning  New Account]"</td>
-<td></td>
-<td>61</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "UpdateContact Info", "Optional[UpdateContact]"</td>
-<td></td>
-<td>41</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
 <td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Optional[Login]"</td>
 <td></td>
-<td>13</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "UpdateContact Info -Error Msg validation", "Optional[UpdateContact]"</td>
-<td></td>
-<td>21</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with data tables", "Optional[Login data]"</td>
-<td></td>
-<td>12</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay - Verify Invalid and Mismatch error message", "Optional[Bill Pay]"</td>
-<td></td>
 <td>44</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay Error Messages Validation", "Optional[Bill Pay]"</td>
-<td></td>
-<td>16</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Bill Pay", "Optional[Bill Pay]"</td>
-<td></td>
-<td>55</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
-<tr>
-<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open a New Account", "Optional[Openning  New Account]"</td>
-<td></td>
-<td>63</td>
-<td>TestRunner.Runner@4671e53b</td></tr>
+<td>TestRunner.Runner@4cf4d528</td></tr>
 </table><p>
 </body>
 </html>

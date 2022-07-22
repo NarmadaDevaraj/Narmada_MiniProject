@@ -2,14 +2,20 @@ package StepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import PageObjects.BillPay;
 import PageObjects.ParaBankAccountOverview;
 import Utility.DriverManager;
+import Utility.ExtentReportConfiguration;
 import io.cucumber.java.en.*;
 
-public class StepBillPay {
+public class StepBillPay extends ExtentReportConfiguration{
 	
 	WebDriver driver=DriverManager.getDriver();
+	//public ExtentTest extentLog=Hooks.getLog();
+	ExtentReports report=ExtentReportConfiguration.getReport();
 	
 	ParaBankAccountOverview accountoverview=new ParaBankAccountOverview(driver);
 	BillPay billpay=new BillPay(DriverManager.driver);
@@ -18,6 +24,9 @@ public class StepBillPay {
 	public void user_click_on_bill_pay() {
 	   
 		accountoverview.clickOnBillPayLink();
+		extentLog=report.createTest(Hooks.scenarioName);	
+		
+		extentLog.info("working on Bill pay");
 	}
 	
 	@When("User enters the Payee Name as {string}")
@@ -30,6 +39,7 @@ public class StepBillPay {
 	   
 		billpay.enterPayeeAddress(pAtext);
 		billpay.enterPayeeAddCity(pACtext);
+		extentLog.pass("Successfully worked bill pay");
 	}
 	
 	@Then("User enters state as {string} and Zip code as {string}")

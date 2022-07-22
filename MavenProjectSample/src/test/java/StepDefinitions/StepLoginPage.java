@@ -10,16 +10,22 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import PageObjects.LoginPage;
 import PageObjects.ParaBankAccountOverview;
 import Utility.BrowserActions;
 import Utility.DriverManager;
+import Utility.ExtentReportConfiguration;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
-public class StepLoginPage  {
+public class StepLoginPage extends ExtentReportConfiguration   {
 
 	WebDriver driver=DriverManager.getDriver();
+	//ExtentReports report=ExtentReportConfiguration.getReport();
+	//public ExtentTest extentLog=Hooks.getLog();
 	
 	public LoginPage loginpage; 
 	public ParaBankAccountOverview accountoverview;
@@ -28,11 +34,17 @@ public class StepLoginPage  {
 	public void user_launch_chrome_browser() {
 		loginpage=new LoginPage(driver);
 		accountoverview=new ParaBankAccountOverview(driver);
+		//
+		//extentLog=report.createTest(Hooks.scenarioName);
+		extentLog=report.createTest("Login scenario");
+		extentLog.info("Narmada starting browser for login page");
+		System.out.println("Narmada scenario:"+Hooks.scenarioName);
 		
 	}
 	@When("User opens URL {string}")
 	public void user_opens_url(String url) {
 		 driver.get(url);
+		 //extentLog.pass("User opens url successfully");
 	}
 	
 	@When("User enters UserName as {string} and Password as {string}")
@@ -40,6 +52,7 @@ public class StepLoginPage  {
 	   
 		loginpage.setUserName(name);
 		loginpage.setPassword(passcode);
+		extentLog.info("User enters credentials");
 	}
 	
 	@When("Click on Login")
@@ -70,6 +83,7 @@ public class StepLoginPage  {
 	   
 		Thread.sleep(1000);
 		accountoverview.clickLogOut();
+		extentLog.pass("Login part is successfull");
 	}
 
 	@And("Close the browser")

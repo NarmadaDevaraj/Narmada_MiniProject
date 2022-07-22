@@ -3,17 +3,23 @@ package StepDefinitions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import PageObjects.LoginPage;
 import PageObjects.TransferFund;
 import Utility.BrowserActions;
 import Utility.DriverManager;
+import Utility.ExtentReportConfiguration;
 import io.cucumber.java.en.*;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepTransferFund {
+public class StepTransferFund extends ExtentReportConfiguration{
  
 	public  WebDriver driver=DriverManager.getDriver();
+	//public ExtentTest extentLog=Hooks.getLog();
+	ExtentReports report=ExtentReportConfiguration.getReport();
 	
 	TransferFund transferfund=new TransferFund(driver);
 	
@@ -22,6 +28,9 @@ public class StepTransferFund {
 	{
 	
 		transferfund.clickOnTransferFundLink();
+		//extentLog=report.createTest(Hooks.scenarioName);	
+		extentLog=report.createTest("Transferfund scenario");
+		extentLog.info("Working on Transferfund");
 	}
 	
 	@When("User enter the Amount as {string}")
@@ -45,6 +54,7 @@ public class StepTransferFund {
 	public void page_title_should_be_contains(String expectedPageTitle) 
 	{
 		transferfund.validatePageTitle(expectedPageTitle);
+		extentLog.pass("Successfully done with transfer fund");
 	}
 
 	

@@ -2,14 +2,20 @@ package StepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import PageObjects.ParaBankAccountOverview;
 import PageObjects.UpdateContactInfo;
 import Utility.DriverManager;
+import Utility.ExtentReportConfiguration;
 import io.cucumber.java.en.*;
 
-public class StepUpdateContactInfo {
+public class StepUpdateContactInfo extends ExtentReportConfiguration{
 	
 	WebDriver driver=DriverManager.getDriver();
+	//public ExtentTest extentLog=Hooks.getLog();
+	ExtentReports report=ExtentReportConfiguration.getReport();
 	
 	UpdateContactInfo contactinfo=new UpdateContactInfo(driver);
 	ParaBankAccountOverview accountoverview=new ParaBankAccountOverview(driver);
@@ -18,6 +24,9 @@ public class StepUpdateContactInfo {
 	public void user_click_on_update_contact() {
 	  
 		accountoverview.clickOnUpdateContactInfoLink();
+		extentLog=report.createTest(Hooks.scenarioName);	
+		
+		extentLog.info("Working on Update Contact info");
 	}
 	
 	@When("User enters the First Name as {string}")
@@ -38,6 +47,7 @@ public class StepUpdateContactInfo {
 	   
 		contactinfo.typeCustomerAddress(expAddress);
 		contactinfo.typeCustomerCity(expCity);
+		extentLog.pass("Successfully worked on updatecontact info");
 	}
 	
 	@Then("User enters Customer state as {string} and Zip code as {string}")

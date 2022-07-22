@@ -14,7 +14,7 @@ public class DriverManager {
 	public static WebDriver driver;
 	static Logger log=(Logger) LogManager.getLogger("DriverManager.java");
 	
-	public DriverManager()
+	private DriverManager()
 	{
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
